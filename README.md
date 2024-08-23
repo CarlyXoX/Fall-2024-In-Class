@@ -5,7 +5,7 @@ Welcome to the **NET Database In-Class Code** repository for Fall 2024. This rep
 ## Repository Structure
 
 - **Class01_IntroToCSharp/**: Contains the code and examples from Class 01: Introduction to C#.
-- **Class02_LoopsAndConditions/**: Contains the code and examples from Class 02: Loops and Conditions.
+- **Class02_AnotherExcitingClass/**: Contains the code and examples from Class 02: Loops and Conditions.
 - *...more folders will be added as the semester progresses.*
 
 ## How to Use This Repository
