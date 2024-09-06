@@ -3,17 +3,20 @@
     public List<Character> Characters { get; set; }
 
     public void PopulateCharacters() {
+        // Add characters (syntax 1)
         Characters = new List<Character>()
         {
             new Character() { Name = "Jimmy", HitPoints = 50 },
             new Character() { Name = "Deborah", HitPoints = 70 },
         };
 
+        // Add more characters (syntax 2)
         var character = new Character();
         character.Name = "Bobby";
         character.HitPoints = 100;
         Characters.Add(character);
 
+        // Add another character (syntax 3)
         Characters.Add(new Character()
         {
             Name = "Timmy",
