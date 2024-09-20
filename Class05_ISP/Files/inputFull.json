@@ -1,0 +1,16 @@
+﻿[
+  {
+    "name": "John",
+    "className": "Fighter",
+    "level": 1,
+    "hp": 10,
+    "equipment": [ "sword", "shield", "potion" ]
+  },
+  {
+    "name": "Jane",
+    "className": "Wizard",
+    "level": 2,
+    "hp": 6,
+    "equipment": [ "staff", "robe", "book" ]
+  }
+]
