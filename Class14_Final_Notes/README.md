@@ -162,6 +162,13 @@ Think of `SelectMany` as "unpacking and combining" nested data into one flat lis
 
 ## LINQ Examples
 
+### **Overview**
+Get a count or retrieve all goblins in a room
+```csharp
+var goblinsInRoom = room.Monsters.Where(m => m.MonsterType == "Goblin").ToList();
+Console.WriteLine($"There are {goblinsInRoom.Count} goblins in the room.");
+```
+
 ### **1. Basic Query: List All Monsters**
 This query retrieves all monsters, showcasing a simple LINQ operation.
 

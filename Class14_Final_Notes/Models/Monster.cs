@@ -1,4 +1,6 @@
-public abstract class Monster : IMonster, ITargetable
+namespace ConsoleRpg.Models;
+
+public abstract class Monster
 {
     public int Id { get; set; }
     public string Name { get; set; }
